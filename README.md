@@ -1,7 +1,7 @@
 # **PeltOS**
 This is PeltOS, a custom-built operating system focused on low-level hardware interaction
 and kernel development. It currently serves as a foundational environment, booting directly
-into a stable text-mode state.
+into a stable text-mode state. Right now, I only support Windows to create the OS.
 
 **This is my first time coding an OS, so don't flame me for bad code.**
 
@@ -26,7 +26,6 @@ Before running the scripts, ensure you have the following installed and added to
 ## How to use it
 All automation scripts are located in the `bat/` folder or handled via the `Makefile`.
 
-### **For Windows Users (No Make)**
 Open a Command Prompt, navigate to the root of the project, and run:
 
 ```batch
@@ -34,37 +33,9 @@ cd bat
 build
 ```
 
-### **For Windows Users (With Make)**
-
-```batch
-cd bat
-env
-make
-```
-
-### **For Linux/Mac Users**
-
-```bash
-make
-```
-
 ## **Running the OS**
-
-### **For Windows Users (No Make)**
 
 ```batch
 cd bat
 run
-```
-
-### **For Windows Users (With Make)**
-
-```batch
-make run
-```
-
-### **For Linux/Mac Users**
-
-```bash
-make run
 ```
