@@ -1,5 +1,5 @@
-# **PeltOS**
-This is PeltOS, a custom-built operating system focused on low-level hardware interaction
+# **Vellum**
+This is Vellum, a custom-built operating system focused on low-level hardware interaction
 and kernel development. It currently serves as a foundational environment, booting directly
 into a stable text-mode state. Right now, it only supports Windows to create the OS.
 
