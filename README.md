@@ -1,7 +1,7 @@
-# **PeltOS**
-This is PeltOS, a custom-built operating system focused on low-level hardware interaction
+# **Vellum**
+This is Vellum, a custom-built operating system focused on low-level hardware interaction
 and kernel development. It currently serves as a foundational environment, booting directly
-into a stable text-mode state. Right now, I only support Windows to create the OS.
+into a stable text-mode state. Right now, it only supports Windows to create the OS.
 
 **This is my first time coding an OS, so don't flame me for bad code.**
 
@@ -15,21 +15,16 @@ initializes primary hardware structures, and prepares the display for user inter
 * **VGA Text-Mode Driver**: Custom driver supporting an 80 x 25 terminal with scrolling and color support.
 * **GDT & Stack Setup**: Properly initialized Global Descriptor Table and kernel stack for stable C execution.
 
-## If you wish to try it out
-### Requirements
-Before running the scripts, ensure you have the following installed and added to your system PATH:
-* **NASM** (Assembler)
-* **QEMU** (Emulator)
-* **i686-elf-gcc** (Cross-Compiler)
-* **Make** (Build Tool) (Optional)
+* **Built-in tools: **NASM**, (Assembler) **QEMU** (Emulator), **i686-elf-gcc** (Cross-Compiler)**
 
 ## How to use it
-All automation scripts are located in the `bat/` folder or handled via the `Makefile`.
+All automation scripts are located in the `bat/` folder.
 
 Open a Command Prompt, navigate to the root of the project, and run:
 
 ```batch
 cd bat
+setup
 build
 ```
 
